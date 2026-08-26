@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "app": "cd app && npx expo start || cd backend && nodemon app.js"
+  },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^3.1.1",
     "react-native-vector-icons": "^10.3.0"
